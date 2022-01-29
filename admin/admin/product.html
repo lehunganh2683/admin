@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.png" type="image/ico" />
+    <title>Sản Phẩm</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="grid.css"> -->
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <!-- <link href="../build/css/custom.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="trangchu.html" class="site_title">
+                            <img src="images/logo.png" alt="" class="logo-img">
+                            <span>Ben10</span>
+                        </a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li><a href="trangchu.html"><i class="fa fa-home"></i> Trang Chủ Admin </span></a></li>
+                                <li><a><i class="fa fa-users"></i> Quản Trị Nhân viên <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="#">Tuyển Dụng </a></li>
+                                        <li><a href="account-nv.html">Đăng Ký Tài Khoản Nhân Viên</a></li>
+                                        <li><a href="info-nv.html">Thông Tin Nhân Viên</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-shopping-cart"></i> Quản Trị Sản Phẩm <span
+                                            class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="#">Danh Mục</a></li>
+                                        <li><a href="product.html">Sản Phẩm</a></li>
+                                        <li><a href="#">Bài Viết</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-bar-chart-o"></i> Báo Cáo <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="#">Doanh Thu</a></li>
+                                        <li><a href="#">Kết Quả Kinh Doanh</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-user"></i>Tài Khoản <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="#">Thay Đổi Thông Tin</a></li>
+                                        <li><a href="#">Thoát Đăng Nhập</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-sign-out"></i>Vào Shop </span></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+                        <ul class=" navbar-right">
+                            <li class="nav-item dropdown open" style="padding-left: 15px;">
+                                Xin chào, Admin!
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="page-title">
+                    <div class="title-left">
+                        <a href="trangchu.html" style="font-size: 15px;">Trang chủ Admin </a>
+                        <span class=" fa fa-chevron-right"></span>
+                        <a href="#" style="font-size: 15px;"> Quản Trị Sản Phẩm </a>
+                        <span class=" fa fa-chevron-right"></span>
+                        <a href="product.html" style="font-size: 15px;"> Sản Phẩm</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row" style="display: block; margin-top: 25px;">
+                    <div class="col-md-12 col-sm-12 ">
+                        <div class="panel">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card-box table-responsive">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="datatable-filter">
+                                                            <label>
+                                                                Tìm kiếm:
+                                                                <input type="search" class="table-search">
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="table-add-wrapper">
+                                                            <a href="product-add.html">
+                                                                <button type="button" class="table-add">
+                                                                    <span class="glyphicon glyphicon-plus"></span>
+                                                                    Thêm mới
+                                                                </button>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <table id="datatable" class="sp-table table-striped table-bordered">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>STT</th>
+                                                                    <th>Danh mục</th>
+                                                                    <th>Mã sản phẩm</th>
+                                                                    <th>Tên sản phẩm</th>
+                                                                    <th>Hình ảnh</th>
+                                                                    <th>Giá</th>
+                                                                    <th>Tác vụ</th>
+                                                                </tr>
+                                                            </thead>
+            
+            
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>Thời trang nam</td>
+                                                                    <td>SP01</td>
+                                                                    <td>ABCD</td>
+                                                                    <td style="width: 20%">
+                                                                        <img src="images/product_1.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$520</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2</td>
+                                                                    <td>Túi xách</td>
+                                                                    <td>SP02</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_2.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$610</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>3</td>
+                                                                    <td>Thời trang nữ</td>
+                                                                    <td>SP03</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_3.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$120</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>4</td>
+                                                                    <td>Túi xách</td>
+                                                                    <td>SP04</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_4.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$410</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>5</td>
+                                                                    <td>Giày</td>
+                                                                    <td>SP05</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_5.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$180</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>6</td>
+                                                                    <td>Phụ kiện</td>
+                                                                    <td>SP06</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_6.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$520</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>7</td>
+                                                                    <td>Thời trang nữ</td>
+                                                                    <td>SP07</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_7.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$610</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>8</td>
+                                                                    <td>Phụ kiện</td>
+                                                                    <td>SP08</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_8.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$120</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>9</td>
+                                                                    <td>Thời trang nam</td>
+                                                                    <td>SP09</td>
+                                                                    <td>ABCD</td>
+                                                                    <td>
+                                                                        <img src="images/product_9.png" alt="" style="width: 150px">
+                                                                    </td>
+                                                                    <td>$180</td>
+                                                                    <td class="td-action">
+                                                                        <a href="#" class="table-action"><span class="fa fa-edit"></span></a>
+                                                                        <a href="#" class="table-action"><span class="fa fa-close"></span></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /page content -->
+
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Copyright &copy; by Ben10 TEAM
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="../vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="../vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+</body>
+
+</html>
